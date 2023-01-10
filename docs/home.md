@@ -33,6 +33,7 @@ permalink: /
 * Corrected a bug in the secondary spinning reserve assignation (downward) of batteries.
 * Corrected a bug in the minimum coupling generation of combined cycle plants.
 * Corrected a bug in the renewable generation constraint screen.
+* Corrected a bug in the graphical interface associated with new versions of input data files.
 
 # Version 5.26
 
