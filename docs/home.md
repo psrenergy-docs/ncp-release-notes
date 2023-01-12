@@ -18,6 +18,7 @@ permalink: /
 * Included the possibility to consider / not consider bypass valves.
 * Included the definition of inflexible operation of bypass valves.
 * Included the hydro plant generation boost feature.
+* Included the definition of individual terminal function for hydroelectric reservoirs.
 * Added the possibility to define penalty values to individual (hydro plant / hydro unit / thermal plant / battery) generation constraints.
 * Reformulated the hydro encroachment representation.
 * Reformulated the forebay elevation x storage representation.
