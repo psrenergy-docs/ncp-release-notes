@@ -6,17 +6,28 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.26.a
+# Version 5.26.b
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26.a-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26.b-patch.zip)
 
 ## New features
 
+* NCP is now compatible with PSRIO as a part of PSR’s processing and visualization toolkit.
 * Included the definition of execution horizon with partial times.
 * Included the option to select a single / multi stopping criterion of the model execution.
 * Extended the hydro station inflow forecast to sub-hourly resolution.
+* Included the possibility to consider / not consider bypass valves.
+* Included the definition of inflexible operation of bypass valves.
+* Included the hydro plant generation boost feature.
+* Included the definition of individual terminal function for hydroelectric reservoirs.
+* Added the possibility to define penalty values to individual (hydro plant / hydro unit / thermal plant / battery) generation constraints.
+* Reformulated the hydro encroachment representation.
+* Reformulated the forebay elevation x storage representation.
+* Maximum number of buses extended to 8000.
 * New output results file:
   * Target storage violation
+  * Available renewable power
+  * Renewable O&M cost
 
 ## Corrections
 
@@ -24,6 +35,9 @@ permalink: /
 * Corrected a bug in multi-fuel thermal units associated to combined cycle plants.
 * Corrected a bug in the secondary spinning reserve assignation (downward) of batteries.
 * Corrected a bug in the minimum coupling generation of combined cycle plants.
+* Corrected a bug in the renewable generation constraint screen.
+* Corrected a bug in the graphical interface associated with new versions of input data files.
+* Corrected a bug in the data acquisition of sum of circuit flow constraint.
 
 # Version 5.26
 
