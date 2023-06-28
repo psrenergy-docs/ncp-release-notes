@@ -6,38 +6,82 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.26.b
+# Version 5.27
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26.b-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.27-setup.zip)
 
 ## New features
 
+* Solver updated to Xpress Suite Optimization 9.1.
 * NCP is now compatible with PSRIO as a part of PSR’s processing and visualization toolkit.
+* Included the transmission network tool designed to assess the model solution and provide a report of contingency violations.
+* Included the definition of multiple joint reserve offers for hydro units, battery, renewable, hydroelectric, and thermal power plants.
+* Included the definition of generic linear constraints.
 * Included the definition of execution horizon with partial times.
+* Included the bus connection of hydro units.
 * Included the option to select a single / multi stopping criterion of the model execution.
-* Extended the hydro station inflow forecast to sub-hourly resolution.
+* Included the nesting joint reserve modelling.
+* Included the representation of thermal gas emission limits (CO2 / SOX / NOX).
+* Included the definition of chronological no-load costs for thermal units.
+* Included the definition of individual terminal cost function for hydro reservoirs.
+* Included the definition of partially controllable spillage for hydro reservoirs.
 * Included the possibility to consider / not consider bypass valves.
 * Included the definition of inflexible operation of bypass valves.
 * Included the hydro plant generation boost feature.
-* Included the definition of individual terminal function for hydroelectric reservoirs.
+* Included the option to define the service type (spinning / non-spinning) for a joint reserve.
+* Included the option to define a minimum number of generators to attend a joint reserve.
+* Included the definition of minimum / maximum limits of phase shifter angle.
+* Included the table head x maximum turbined flow for hydroelectric power plants.
+* Included the representation of turbined / spilled flow ramps.
+* Included the maintenance scenario for batteries.
+* Included the overload operation mode for AC circuits.
+* Added the possibility to define levels of energy injection bids / prices for batteries.
+* Added the possibility to enable the operation smoothing feature for individual generators.
 * Added the possibility to define penalty values to individual (hydro plant / hydro unit / thermal plant / battery) generation constraints.
+* Added the possibility to define single reserve constraints for batteries.
+* Added the possibility to define different joint reserve bids / limits for batteries (upward/downward).
+* Added the possibility to define a target storage for batteries.
+* Added the constraint type (equal to) to the renewable generation constraints.
+* Added an option to provide non-integral optimal (relaxed) solutions.
+* Extended the hydro station inflow forecast to sub-hourly resolution.
+* Extended the number of characters for names of AC circuits, renewables and sum of circuit flow's constraints.
 * Reformulated the hydro encroachment representation.
 * Reformulated the forebay elevation x storage representation.
+* Reformulated the joint reserve modelling for batteries.
+* Reformulated the transmission network representation.
+* Reformulated the option to define joint reserve offers for a group of generators with symmetric reserve assignment option.
 * Maximum number of buses extended to 8000.
+* Deprecated the option to define joint reserve assignation forced by generation.
+* Deprecated the option to define cold reserve bids for hydro and thermal plants.
 * New output results file:
   * Target storage violation
   * Available renewable power
   * Renewable O&M cost
+  * Available battery power
+  * Battery O&M cost
+  * Battery individual reserve
+  * Battery individual reserve violation
+  * Gas emission violation
+  * Net AC bus injection
+  * Phase shifter angle
 
 ## Corrections
 
 * Corrected a bug in the electricity production smoothing feature.
 * Corrected a bug in multi-fuel thermal units associated to combined cycle plants.
-* Corrected a bug in the secondary spinning reserve assignation (downward) of batteries.
+* Corrected a bug in the secondary spinning reserve assignment (downward) of batteries.
 * Corrected a bug in the minimum coupling generation of combined cycle plants.
 * Corrected a bug in the renewable generation constraint screen.
 * Corrected a bug in the graphical interface associated with new versions of input data files.
 * Corrected a bug in the data acquisition of sum of circuit flow constraint.
+* Corrected a bug in the chronological execution scheme.
+* Corrected a bug in the output results aggregator feature.
+* Corrected a bug in the mixed hydro unit commitment representation screen.
+* Corrected a bug in the mixed hydro unit representation screen.
+* Corrected a bug in the wave propagation factors for sub-hourly executions.
+* Corrected a bug in the not shared / exclusive joint reserve assignation outputs.
+* Corrected a bug in the power inflection constraint of thermal units.
+* Corrected a bug in the hydro capacity margin output.
 
 # Version 5.26
 
