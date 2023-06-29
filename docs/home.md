@@ -82,6 +82,7 @@ permalink: /
 * Corrected a bug in the not shared / exclusive joint reserve assignation outputs.
 * Corrected a bug in the power inflection constraint of thermal units.
 * Corrected a bug in the hydro capacity margin output.
+* Corrected a bug in the bus configuration CSV import/export tool.
 
 # Version 5.26
 
