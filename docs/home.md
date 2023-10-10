@@ -6,6 +6,29 @@ description: "NCP release notes"
 permalink: /
 ---
 
+# Version 5.27.a
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.27.a-patch.zip)
+
+## New features
+
+* Included a check consistency in the hydro unit production grid results.
+* Included an option to update old NCP dataset formats.
+
+## Corrections
+
+* Corrected a bug in the data acquisition of chronological minimum total outflow constraint.
+* Corrected a bug in the chronological execution aggregation tool.
+* Corrected a bug in the charge / discharge variable of batteries in the generic constraint's selection.
+* Corrected a bug in the forbidden zones representation of hydroelectric power plants.
+* Corrected a bug in the joint reserve assignation of renewable sources.
+* Corrected a bug in the sub-hourly maintenance scenario of thermal power plants.
+* Corrected a bug in the hydro unit multiple joint reserve screen.
+* Corrected a bug in the joint reserve purchase output report.
+* Corrected a bug in the maximum limit of multiple joint reserve bids.
+* Corrected a bug in the selection of renewable sources for joint reserve constraints.
+* Corrected a bug in the hydro unit multiple joint reserve representation.
+  
 # Version 5.27
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.27-setup.zip)
