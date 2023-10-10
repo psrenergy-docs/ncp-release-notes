@@ -28,6 +28,7 @@ permalink: /
 * Corrected a bug in the maximum limit of multiple joint reserve bids.
 * Corrected a bug in the selection of renewable sources for joint reserve constraints.
 * Corrected a bug in the hydro unit multiple joint reserve representation.
+* Corrected a bug in the hydro representation screen.
   
 # Version 5.27
 
