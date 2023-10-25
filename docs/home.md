@@ -29,6 +29,7 @@ permalink: /
 * Corrected a bug in the selection of renewable sources for joint reserve constraints.
 * Corrected a bug in the hydro unit multiple joint reserve representation.
 * Corrected a bug in the hydro representation screen.
+* Corrected a bug in the equality generic constraints.
   
 # Version 5.27
 
