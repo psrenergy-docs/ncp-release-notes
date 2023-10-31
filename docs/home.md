@@ -14,6 +14,7 @@ permalink: /
 
 * Included a check consistency in the hydro unit production grid results.
 * Included an option to update old NCP dataset formats.
+* Included a PSRIO script that standardizes the horizon of all output reports for sub-hourly runs.
 
 ## Corrections
 
@@ -28,8 +29,10 @@ permalink: /
 * Corrected a bug in the maximum limit of multiple joint reserve bids.
 * Corrected a bug in the selection of renewable sources for joint reserve constraints.
 * Corrected a bug in the hydro unit multiple joint reserve representation.
-* Corrected a bug in the hydro representation screen.
+* Corrected a bug in the hydro plant / unit representation screen.
 * Corrected a bug in the equality generic constraints.
+* Corrected a bug in the hydro unit multiple reserve output.
+* Corrected a bug in the data acquisition of hydro single reserve for chronological executions.
   
 # Version 5.27
 
