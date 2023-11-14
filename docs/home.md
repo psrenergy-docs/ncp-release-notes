@@ -15,7 +15,7 @@ permalink: /
 * Included a check consistency in the hydro unit production grid results.
 * Included an option to update old NCP dataset formats.
 * Included a PSRIO script that standardizes the horizon of all output reports for sub-hourly runs.
-* * New output results file:
+* New output results file:
   * Battery net generation marginal cost
 
 ## Corrections
