@@ -15,7 +15,7 @@ permalink: /
 * Included a check consistency in the hydro unit production grid results.
 * Included an option to update old NCP dataset formats.
 * Included a PSRIO script that standardizes the horizon of all output reports for sub-hourly runs.
-* The joint reserve assignation of hydro plants / units, thermal plants and batteries are now constrained by the maximum ramp- up / down rates.
+* The joint reserve assignment of hydro plants / units, thermal plants and batteries are now constrained by the maximum ramp- up / down rates.
 * New output results file:
   * Battery net generation marginal cost
 
@@ -25,7 +25,7 @@ permalink: /
 * Corrected a bug in the chronological execution aggregation tool.
 * Corrected a bug in the charge / discharge variable of batteries in the generic constraint's selection.
 * Corrected a bug in the forbidden zones representation of hydroelectric power plants.
-* Corrected a bug in the joint reserve assignation of renewable sources.
+* Corrected a bug in the joint reserve assignment of renewable sources.
 * Corrected a bug in the sub-hourly maintenance scenario of thermal power plants.
 * Corrected a bug in the hydro unit multiple joint reserve screen.
 * Corrected a bug in the joint reserve purchase output report.
@@ -82,7 +82,7 @@ permalink: /
 * Reformulated the transmission network representation.
 * Reformulated the option to define joint reserve offers for a group of generators with symmetric reserve assignment option.
 * Maximum number of buses extended to 8000.
-* Deprecated the option to define joint reserve assignation forced by generation.
+* Deprecated the option to define joint reserve assignment forced by generation.
 * Deprecated the option to define cold reserve bids for hydro and thermal plants.
 * New output results file:
   * Target storage violation
@@ -110,7 +110,7 @@ permalink: /
 * Corrected a bug in the mixed hydro unit commitment representation screen.
 * Corrected a bug in the mixed hydro unit representation screen.
 * Corrected a bug in the wave propagation factors for sub-hourly executions.
-* Corrected a bug in the not shared / exclusive joint reserve assignation outputs.
+* Corrected a bug in the not shared / exclusive joint reserve assignment outputs.
 * Corrected a bug in the power inflection constraint of thermal units.
 * Corrected a bug in the hydro capacity margin output.
 * Corrected a bug in the bus configuration CSV import/export tool.
@@ -152,7 +152,7 @@ permalink: /
   * Hydro unit synchronous condenser status
   * Hydro unit synchronous condenser start-up / cost
   * Total received outflow
-  * Hydro unit FCAS assignation (raise / lower)
+  * Hydro unit FCAS assignment (raise / lower)
   * Bypass valve flow
   * Bypass valve flow (min / max) violation
   * Hydro average limit violation
@@ -262,8 +262,8 @@ permalink: /
 ## New features
 
 * Solver updated to the Xpress Suite Optimization 8.8.
-* Added the possibility to define an additional minimum power limit for Secondary Spinning Reserve assignation of Hydro Units.
-* Added the possibility to define an additional maximum power limit for Secondary Spinning Reserve assignation of Hydro Units.
+* Added the possibility to define an additional minimum power limit for Secondary Spinning Reserve assignment of Hydro Units.
+* Added the possibility to define an additional maximum power limit for Secondary Spinning Reserve assignment of Hydro Units.
 * Included some enhancements associated to hydro unit production modelling.
 * Included the data set path reading using parameters.
 * Added the possibility to define integral fuel contracts.
@@ -366,7 +366,7 @@ permalink: /
 * Corrected a bug when deleting Electrical Areas.
 * Corrected a bug when changing rapidly from different data sets.
 * Corrected a bug in the Start-up Minimum Time constraint.
-* Corrected a bug in the Secondary Spinning Reserve assignation for mixed offers of hydro plants and hydro units.
+* Corrected a bug in the Secondary Spinning Reserve assignment for mixed offers of hydro plants and hydro units.
 * Corrected a bug in the Import/Export limits for Electrical Areas constraint.
 * Corrected a bug in the Hydro Unit Maintenance scenario.
 * Corrected a bug in the option to value water in transit.
@@ -397,7 +397,7 @@ permalink: /
 
 ## Corrections
 
-* Corrected a bug in the minimum limit of Secondary Reserve assignation defined in MW.
+* Corrected a bug in the minimum limit of Secondary Reserve assignment defined in MW.
 * Corrected a bug in the reading process of Renewable Plant modification data.
 * Corrected a bug in the reading process of System Cold Reserve data.
 * Corrected a bug in the reading process of Sum of Circuit Flows for chronological execution.
@@ -419,7 +419,7 @@ permalink: /
 
 ## New features
 
-* Added the possibility to define a set of plants to have an assignation of Forced Secondary Reserve based on its Generation.
+* Added the possibility to define a set of plants to have an assignment of Forced Secondary Reserve based on its Generation.
 * Added the Circuit Losses Representation (linear / integer) in 15/30/60 minutes.
 * Added the Circuit Losses Penalty (active / inactive) in 15/30/60 minutes.
 * Added the possibility to define more than one type of Individual Generation Constraints for Hydro Plants.
@@ -449,9 +449,9 @@ permalink: /
 
 ## New features
 
-* Added the possibility to define an additional minimum power limit for Secondary Spinning Reserve assignation of Thermal Plants.
-* Added the possibility to define an additional minimum power limit for Secondary Spinning Reserve assignation of Hydro Plants.
-* Added the possibility to define an additional maximum power limit for Secondary Spinning Reserve assignation of Hydro Plants.
+* Added the possibility to define an additional minimum power limit for Secondary Spinning Reserve assignment of Thermal Plants.
+* Added the possibility to define an additional minimum power limit for Secondary Spinning Reserve assignment of Hydro Plants.
+* Added the possibility to define an additional maximum power limit for Secondary Spinning Reserve assignment of Hydro Plants.
 * Added the possibility to define different ways (upward/downward) for Primary Reserve of Hydro and Thermal Plants.
 * Added the possibility to define a Maintenance Scenario for DC Links in 15/30/60 minutes.
 * Added the possibility to import fuel availability constraints of a SDDP mid-long term planning study for the chronological execution option.
@@ -491,7 +491,7 @@ permalink: /
 * Extended the automatic infeasibility detector for the optimization process.
 * Reformulated the unit commitment representation of thermal plants.
 * Power View module (visualization of transmission network and results) updated to the version 1.5 with animation recording tool.
-* Added the possibility to define an additional maximum power limit for Secondary Spinning Reserve assignation of Thermal Plants.
+* Added the possibility to define an additional maximum power limit for Secondary Spinning Reserve assignment of Thermal Plants.
 * Improved the memory allocation of some variables/constraints.
 * Extended the possibility to define more than 365 days of data at once in chronological grids.
 * Added the new format (linear / tabular) for CSV import/export tool data in System Demand and System Market Price screens.
@@ -506,7 +506,7 @@ permalink: /
 ## Corrections
 
 * Corrected a bug in the Secondary Spinning Reserve constraint for the chronological option.
-* Corrected a bug in the Secondary Spinning Reserve assignation for run of river plants.
+* Corrected a bug in the Secondary Spinning Reserve assignment for run of river plants.
 * Corrected a bug in the Cold Reserve constraint.
 * Corrected a bug in the Data Directory selection.
 * Corrected a bug in the Deficit output for the chronological option.
