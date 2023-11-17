@@ -13,7 +13,7 @@ permalink: /
 ## New features
 
 * Included a check consistency in the hydro unit production grid results.
-* Included an option to update old NCP dataset formats.
+* Included an option to update previous NCP dataset formats.
 * Included a PSRIO script that standardizes the horizon of all output reports for sub-hourly runs.
 * The joint reserve assignment of hydro plants / units, thermal plants and batteries are now constrained by the maximum ramp- up / down rates.
 * New output results file:
