@@ -36,6 +36,7 @@ permalink: /
 * Corrected a bug in the equality generic constraints.
 * Corrected a bug in the hydro unit multiple reserve output.
 * Corrected a bug in the data acquisition of hydro single reserve for chronological executions.
+* Corrected a bug in the thermal plant multiple joint reserve representation.
   
 # Version 5.27
 
