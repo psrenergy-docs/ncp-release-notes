@@ -6,9 +6,9 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.27.a
+# Version 5.27.b
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.27.a-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.27.b-patch.zip)
 
 ## New features
 
@@ -16,6 +16,7 @@ permalink: /
 * Included an option to update previous NCP dataset formats.
 * Included a PSRIO script that standardizes the horizon of all output reports for sub-hourly runs.
 * The joint reserve assignment of hydro plants / units, thermal plants and batteries are now constrained by the maximum ramp- up / down rates.
+* The revenue maximization criterion is permanently inactive for cases involving network representation. Please switch to the cost minimization criterion and employ elastic supply modeling instead.
 * New output results file:
   * Battery net generation marginal cost
 
@@ -37,6 +38,10 @@ permalink: /
 * Corrected a bug in the hydro unit multiple reserve output.
 * Corrected a bug in the data acquisition of hydro single reserve for chronological executions.
 * Corrected a bug in the thermal plant multiple joint reserve representation.
+* Corrected a bug in the non-spinning reserve assignment of hydro units.
+* Corrected a bug in the non-spinning reserve modeling.
+* Corrected a bug in the hydro production representation screen.
+* Corrected a bug in the hydro unit electrical connection screen.
   
 # Version 5.27
 
