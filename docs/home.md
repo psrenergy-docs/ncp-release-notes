@@ -12,7 +12,7 @@ permalink: /
 
 ## New features
 
-* Integration with the AC OPF model that can represent nonlinear constraints and provides an accurate depiction of voltage levels, tap transformers, more precise active losses, reactive power flows and injections.
+* Included the integration with the AC Optimal Power Flow (AC OPF) model that can represent nonlinear constraints and provides an accurate depiction of voltage levels, tap transformers, more precise active losses, reactive power flows and injections.
 * Included the thermal inertia representation.
 * Included a check consistency in the hydro unit production grid results.
 * Included an option to update previous NCP dataset formats.
