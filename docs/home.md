@@ -18,7 +18,6 @@ permalink: /
 * Included an option to update previous NCP dataset formats.
 * Included a PSRIO script that standardizes the horizon of all output reports for sub-hourly runs.
 * The joint reserve assignment of hydro plants / units, thermal plants and batteries are now constrained by the maximum ramp- up / down rates.
-* The revenue maximization criterion is permanently inactive for cases involving network representation. Please switch to the cost minimization criterion and employ elastic supply modeling instead.
 * Included the definition of power grid (net head x turbined outflow x power) for hydro units.
 * Included the definition of generic exclusion constraints.
 * Included the sub-hourly definition of fuel prices.
@@ -84,6 +83,7 @@ permalink: /
 * Corrected a bug in the stochastic data reading for cases with partial times.
 * Corrected a bug in the joint reserve units of batteries.
 * Corrected a bug in the individual reserve units of batteries and renewable sources.
+* The revenue maximization criterion is permanently inactive for cases involving network representation. Please switch to the cost minimization criterion and employ elastic supply modeling instead.
   
 # Version 5.27
 
