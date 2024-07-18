@@ -37,24 +37,32 @@ permalink: /
 * Extended the maximum number of elastic transaction blocks.
 * Included the ability to lead with negative energy prices for elastic transaction offers.
 * Added import/export data from/to CSV functionality to the sum of circuit flow constraint.
-* New output results file:
+* New output results file (NCP):
   * Battery net generation marginal cost
   * Hydro unit nominal power
-  * Hydro generation (Optimum Flow AC model)
-  * Thermal generation (Optimum Flow AC model)
-  * Renewable generation (Optimum Flow AC model)
-  * Battery net generation (Optimum Flow AC model)
-  * Circuit losses (Optimum Flow AC model)
-  * Circuit active flows (Optimum Flow AC model)
-  * Circuit reactive flows (Optimum Flow AC model)
-  * Phase shifter angle (Optimum Flow AC model)
-  * Circuit tap (Optimum Flow AC model)
-  * Bus voltage (Optimum Flow AC model)
-  * Bus angle (Optimum Flow AC model)
   * Thermal inertia
   * Thermal synchronous condenser status
   * Thermal synchronous condenser start-up / cost
-
+ * New output results file (AC OPF):  
+  * Hydro active generation
+  * Hydro reactive generation
+  * Thermal active generation
+  * Thermal reactive generation
+  * Renewable active generation
+  * Renewable reactive generation
+  * Battery net active generation
+  * Circuit active losses
+  * Circuit active flows
+  * Circuit reactive flows
+  * Phase shifter angle
+  * Circuit tap
+  * Bus voltage
+  * Bus angle
+  * Bus reactive demand
+  * Bus reactive deficit  
+  * Bus capacitive injection
+  * Bus inductive injection  
+   
 ## Corrections
 
 * Corrected a bug in the data acquisition of chronological minimum total outflow constraint.
