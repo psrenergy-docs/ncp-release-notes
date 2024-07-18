@@ -6,12 +6,13 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.27.c
+# Version 5.28
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.27.c-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28-setup.zip)
 
 ## New features
 
+* Included the thermal inertia representation.
 * Included a check consistency in the hydro unit production grid results.
 * Included an option to update previous NCP dataset formats.
 * Included a PSRIO script that standardizes the horizon of all output reports for sub-hourly runs.
@@ -20,16 +21,39 @@ permalink: /
 * Included the definition of power grid (net head x turbined outflow x power) for hydro units.
 * Included the definition of generic exclusion constraints.
 * Included the sub-hourly definition of fuel prices.
+* Included the sub-hourly definition of multiple joint reserve bids for hydro plants, units, thermal generators, renewable sources and batteries.
+* Added the possibility to select batteries and renewable sources in the system generation constraints.
+* Included the sub-hourly definition of system generation constraints.
 * Added the possibility to select hydro unit variables in the generic constraints.
+* Added the possibility to select start-up decision variables (hydro and thermal) in the generic constraints.
 * Reformulated the hydraulic pumping unit representation.
+* Reformulated the hydraulic losses representation.
 * Added the possibility to define levels of energy bids / prices for renewable sources.
 * Added the possibility to define levels of energy loading bids / prices for batteries.
 * Added the possibility to define names of target generation constraints.
 * Added the possibility to define fuel price scenarios (hourly / sub-hourly) for stochastic executions.
 * Added the possibility to define sub-hourly inflow scenarios for stochastic executions.
+* Added the possibility to select the representation of hydraulic losses type.
+* Extended the maximum number of elastic transaction blocks.
+* Included the ability to lead with negative energy prices for elastic transaction offers.
+* Added import/export data from/to CSV functionality to the sum of circuit flow constraint.
 * New output results file:
   * Battery net generation marginal cost
   * Hydro unit nominal power
+  * Hydro generation (Optimum Flow AC model)
+  * Thermal generation (Optimum Flow AC model)
+  * Renewable generation (Optimum Flow AC model)
+  * Battery net generation (Optimum Flow AC model)
+  * Circuit losses (Optimum Flow AC model)
+  * Circuit active flows (Optimum Flow AC model)
+  * Circuit reactive flows (Optimum Flow AC model)
+  * Phase shifter angle (Optimum Flow AC model)
+  * Circuit tap (Optimum Flow AC model)
+  * Bus voltage (Optimum Flow AC model)
+  * Bus angle (Optimum Flow AC model)
+  * Thermal inertia
+  * Thermal synchronous condenser status
+  * Thermal synchronous condenser start-up / cost
 
 ## Corrections
 
