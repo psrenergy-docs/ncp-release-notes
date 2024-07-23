@@ -43,7 +43,7 @@ permalink: /
   * Thermal inertia
   * Thermal synchronous condenser status
   * Thermal synchronous condenser start-up / cost
- * New output results file (AC OPF):  
+* New output results file (AC OPF):  
   * Hydro active generation
   * Hydro reactive generation
   * Thermal active generation
