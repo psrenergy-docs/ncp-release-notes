@@ -61,7 +61,8 @@ permalink: /
   * Bus reactive demand
   * Bus reactive deficit  
   * Bus capacitive injection
-  * Bus inductive injection  
+  * Bus inductive injection
+  * Bus curtailment factor
    
 ## Corrections
 
