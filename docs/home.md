@@ -23,7 +23,7 @@ permalink: /
 * Corrected a bug in the enabling status of individual generation constraints of hydro plants, hydro units, thermal plants and batteries.
 * Corrected a bug in the nesting reserve modeling.
 * Corrected a bug in the maximum available power for thermal plants with energy bids.
-* Corrected a bug in the elastica transactions screen.
+* Corrected a bug in the elastic transactions screen.
 * Corrected a bug in the FCAS registry screen.
 
 # Version 5.28
