@@ -17,6 +17,7 @@ permalink: /
 * Extended the energy bid for hydro plants to include a minimum bid and capacity / price levels.
 * Added the possibility to define levels of energy bids / prices and minimum bids for hydro units.
 * Included the energy cost representation (standard / energy bids) for hydro plants and units.
+* Reformulated the revenue maximization criterion for cases involving network representation.
    
 ## Corrections
 
