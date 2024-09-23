@@ -12,7 +12,7 @@ permalink: /
 
 ## New features
 
-* Included the turbined water target constraint.
+* Included the turbined water target constraint for hydro plants.
 * Extended the possibility to define penalties for target generation constraints.
 * Extended the energy bid for hydro plants to include a minimum bid and capacity / price levels.
 * Added the possibility to define levels of energy bids / prices and minimum bids for hydro units.
