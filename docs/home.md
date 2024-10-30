@@ -6,6 +6,28 @@ description: "NCP release notes"
 permalink: /
 ---
 
+# Version 5.28.a
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.a-patch.zip)
+
+## New features
+
+* Included the turbined water target constraint for hydro plants.
+* Extended the possibility to define penalties for target generation constraints.
+* Extended the energy bid for hydro plants to include a minimum bid and capacity / price levels.
+* Added the possibility to define levels of energy bids / prices and minimum bids for hydro units.
+* Included the energy cost representation (standard / energy bids) for hydro plants and units.
+* Reformulated the revenue maximization criterion for cases involving network representation.
+   
+## Corrections
+
+* Corrected a bug in the enabling status of individual generation constraints of hydro plants, hydro units, thermal plants and batteries.
+* Corrected a bug in the nesting reserve modeling.
+* Corrected a bug in the maximum available power for thermal plants with energy bids.
+* Corrected a bug in the elastic transactions screen.
+* Corrected a bug in the FCAS registry screen.
+* Corrected a bug in the reading process of sum of circuit flow constraints.
+
 # Version 5.28
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28-setup.zip)
