@@ -26,6 +26,7 @@ permalink: /
 * Corrected a bug in the maximum available power for thermal plants with energy bids.
 * Corrected a bug in the elastic transactions screen.
 * Corrected a bug in the FCAS registry screen.
+* Corrected a bug in the reading process of sum of circuit flow constraints.
 
 # Version 5.28
 
