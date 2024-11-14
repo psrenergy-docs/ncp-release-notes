@@ -12,14 +12,26 @@ permalink: /
 
 ## New features
 
+### NCP
+
 * Included the turbined water target constraint for hydro plants.
 * Extended the possibility to define penalties for target generation constraints.
 * Extended the energy bid for hydro plants to include a minimum bid and capacity / price levels.
 * Added the possibility to define levels of energy bids / prices and minimum bids for hydro units.
 * Included the energy cost representation (standard / energy bids) for hydro plants and units.
 * Reformulated the revenue maximization criterion for cases involving network representation.
+
+### AC OPF
+
+* The model now considers the circuit connection status.
+* The model now includes a flag to limit the maximum deviation of active power.
+* Included an automatic detection of network islands and fix the slack bus angle to zero per island (improves convergence and provides cleaner angle results).
+* Reformulated the demand deficit representation.
+* The model now considers all the thermal generator status (commitment, must-run or benefit).
    
 ## Corrections
+
+### NCP
 
 * Corrected a bug in the enabling status of individual generation constraints of hydro plants, hydro units, thermal plants and batteries.
 * Corrected a bug in the nesting reserve modeling.
@@ -27,6 +39,14 @@ permalink: /
 * Corrected a bug in the elastic transactions screen.
 * Corrected a bug in the FCAS registry screen.
 * Corrected a bug in the reading process of sum of circuit flow constraints.
+
+### AC OPF
+
+* Fixed the defict and reactive power generation outputs.
+* Improved the numerical precision of input data reading.
+* Fixed a bug in reactive power balance: added shunt instead of subtracting shunt in the reactive power balance. Positive values now represent capacitive shunt, as per Knowledge Hub.
+* Corrected a bug related to the code assembly for certain entities in the AC network.
+* Corrected a bug in the iteration limit for the mathematical solver.
 
 # Version 5.28
 
