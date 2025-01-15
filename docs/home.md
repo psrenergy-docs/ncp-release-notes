@@ -6,9 +6,9 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.28.a
+# Version 5.28.b
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.a-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.b-patch.zip)
 
 ## New features
 
@@ -20,6 +20,9 @@ permalink: /
 * Added the possibility to define levels of energy bids / prices and minimum bids for hydro units.
 * Included the energy cost representation (standard / energy bids) for hydro plants and units.
 * Reformulated the revenue maximization criterion for cases involving network representation.
+* Reformulated the combined cycle power plant representation.
+* Reformulated the power grid (net head x turbined outflow x power) representation for hydro units.
+* Included the definition of generic linear (integral) constraints.
 
 ### AC OPF
 
@@ -39,6 +42,10 @@ permalink: /
 * Corrected a bug in the elastic transactions screen.
 * Corrected a bug in the FCAS registry screen.
 * Corrected a bug in the reading process of sum of circuit flow constraints.
+* Corrected a bug in the reading process of turbine efficiency values of hydro units.
+* Corrected a bug in the maximum number of daily start-ups / shutdowns of hydro units and thermal plants.
+* Corrected a bug in the daily fuel constracts of thermal plants.
+* Corrected a bug in the reading process of discrete generation constraints of hydro plants.
 
 ### AC OPF
 
