@@ -23,6 +23,8 @@ permalink: /
 * Reformulated the combined cycle power plant representation.
 * Reformulated the power grid (net head x turbined outflow x power) representation for hydro units.
 * Included the definition of generic linear (integral) constraints.
+* Included the definition of generic decision variables.
+* Added the possibility to select shutdown decision variables of thermal power plants in the generic constraints.
 
 ### AC OPF
 
@@ -46,6 +48,7 @@ permalink: /
 * Corrected a bug in the maximum number of daily start-ups / shutdowns of hydro units and thermal plants.
 * Corrected a bug in the daily fuel constracts of thermal plants.
 * Corrected a bug in the reading process of discrete generation constraints of hydro plants.
+* Corrected a bug in the input data reading process of NCP model under ePSR environment.
 
 ### AC OPF
 
