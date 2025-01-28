@@ -49,6 +49,7 @@ permalink: /
 * Corrected a bug in the daily fuel constracts of thermal plants.
 * Corrected a bug in the reading process of discrete generation constraints of hydro plants.
 * Corrected a bug in the input data reading process of NCP model under ePSR environment.
+* Corrected a bug in the graphical interface of joint reserve of hydro units.
 
 ### AC OPF
 
