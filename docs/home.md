@@ -25,6 +25,7 @@ permalink: /
 * Included the definition of generic linear (integral) constraints.
 * Included the definition of generic decision variables.
 * Added the possibility to select shutdown decision variables of thermal power plants in the generic constraints.
+* Added the possibility to select curtailment of renewable power plants in the generic constraints.
 
 ### AC OPF
 
