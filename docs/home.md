@@ -26,6 +26,8 @@ permalink: /
 * Included the definition of generic decision variables.
 * Added the possibility to select shutdown decision variables of thermal power plants in the generic constraints.
 * Added the possibility to select curtailment of renewable power plants in the generic constraints.
+* Added an option to prevent the curtailment of renewable power plants.
+* Implemented a precedence order constraint for the curtailment of renewable power plants.
 
 ### AC OPF
 
@@ -51,6 +53,7 @@ permalink: /
 * Corrected a bug in the reading process of discrete generation constraints of hydro plants.
 * Corrected a bug in the input data reading process of NCP model under ePSR environment.
 * Corrected a bug in the graphical interface of joint reserve of hydro units.
+* Corrected a bug in the individual reserve output of renewable power plants.
 
 ### AC OPF
 
