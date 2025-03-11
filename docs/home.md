@@ -14,20 +14,21 @@ permalink: /
 
 ### NCP
 
-* Included the turbined water target constraint for hydro plants.
-* Extended the possibility to define penalties for target generation constraints.
-* Extended the energy bid for hydro plants to include a minimum bid and capacity / price levels.
-* Added the possibility to define levels of energy bids / prices and minimum bids for hydro units.
-* Included the energy cost representation (standard / energy bids) for hydro plants and units.
-* Reformulated the revenue maximization criterion for cases involving network representation.
-* Reformulated the combined cycle power plant representation.
-* Reformulated the power grid (net head x turbined outflow x power) representation for hydro units.
-* Included the definition of generic linear (integral) constraints.
-* Included the definition of generic decision variables.
-* Added the possibility to select shutdown decision variables of thermal power plants in the generic constraints.
-* Added the possibility to select curtailment of renewable power plants in the generic constraints.
+* Added the turbined water target constraint for hydro plants.
+* Expanded the capability to define penalties for target generation constraints.
+* Enhanced the energy bid configuration for hydro plants by introducing a minimum bid and capacity/price levels.
+* Enabled the definition of energy bid/price levels and minimum bids for hydro units.
+* Incorporated the energy cost representation (standard/energy bids) for hydro plants and units.
+* Redesigned the revenue maximization criterion for cases involving network representation.
+* Refactored the combined cycle power plant representation.
+* Updated the power grid representation (net head vs. turbined outflow vs. power) for hydro units.
+* Introduced the definition of generic linear (integral) constraints.
+* Added support for defining generic decision variables.
+* Enabled the selection of thermal power plant shutdown decision variables within generic constraints.
+* Allowed the selection of renewable power plant curtailment in generic constraints.
 * Added an option to prevent the curtailment of renewable power plants.
-* Implemented a precedence order constraint for the curtailment of renewable power plants.
+* Implemented a precedence order constraint for renewable power plant curtailment.
+* Redesigned the non-controllable spillage modeling for hydro plants.
 
 ### AC OPF
 
@@ -54,14 +55,15 @@ permalink: /
 * Corrected a bug in the input data reading process of NCP model under ePSR environment.
 * Corrected a bug in the graphical interface of joint reserve of hydro units.
 * Corrected a bug in the individual reserve output of renewable power plants.
+* Corrected a bug in the battery target storage screen.
 
 ### AC OPF
 
-* Fixed the defict and reactive power generation outputs.
-* Improved the numerical precision of input data reading.
-* Fixed a bug in reactive power balance: added shunt instead of subtracting shunt in the reactive power balance. Positive values now represent capacitive shunt, as per Knowledge Hub.
-* Corrected a bug related to the code assembly for certain entities in the AC network.
-* Corrected a bug in the iteration limit for the mathematical solver.
+* The model now considers the circuit connection status.
+* Added a flag to limit the maximum deviation of active power.
+* Implemented automatic detection of network islands and fixed the slack bus angle to zero per island (improves convergence and provides cleaner angle results).
+* Redesigned the demand deficit representation.
+* The model now accounts for all thermal generator statuses (commitment, must-run, or benefit).
   
 # Version 5.28
 
