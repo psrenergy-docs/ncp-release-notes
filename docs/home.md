@@ -56,14 +56,6 @@ permalink: /
 * Corrected a bug in the graphical interface of joint reserve of hydro units.
 * Corrected a bug in the individual reserve output of renewable power plants.
 * Corrected a bug in the battery target storage screen.
-
-### AC OPF
-
-* The model now considers the circuit connection status.
-* Added a flag to limit the maximum deviation of active power.
-* Implemented automatic detection of network islands and fixed the slack bus angle to zero per island (improves convergence and provides cleaner angle results).
-* Redesigned the demand deficit representation.
-* The model now accounts for all thermal generator statuses (commitment, must-run, or benefit).
   
 # Version 5.28
 
