@@ -29,6 +29,7 @@ permalink: /
 * Added an option to prevent the curtailment of renewable power plants.
 * Implemented a precedence order constraint for renewable power plant curtailment.
 * Redesigned the non-controllable spillage modeling for hydro plants.
+* Reformulated the hydraulic losses representation.
 
 ### AC OPF
 
@@ -56,6 +57,9 @@ permalink: /
 * Corrected a bug in the graphical interface of joint reserve of hydro units.
 * Corrected a bug in the individual reserve output of renewable power plants.
 * Corrected a bug in the battery target storage screen.
+* Corrected a bug in the representation of encroachment effect.
+* Corrected a buf in the individual terminal function of hydro plants.
+* Corrected a bug in the reading process of chronological requirement of generic linear constraints.
   
 # Version 5.28
 
