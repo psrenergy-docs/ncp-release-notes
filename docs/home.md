@@ -58,8 +58,9 @@ permalink: /
 * Corrected a bug in the individual reserve output of renewable power plants.
 * Corrected a bug in the battery target storage screen.
 * Corrected a bug in the representation of encroachment effect.
-* Corrected a buf in the individual terminal function of hydro plants.
+* Corrected a bug in the individual terminal function of hydro plants.
 * Corrected a bug in the reading process of chronological requirement of generic linear constraints.
+* Corrected a bug in the hydro unit configuration screen.
   
 # Version 5.28
 
