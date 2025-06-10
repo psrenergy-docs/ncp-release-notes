@@ -6,25 +6,30 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.28.b
+# Version 5.28.c
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.b-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.c-patch.zip)
 
 ## New features
 
 ### NCP
 
-* Included the turbined water target constraint for hydro plants.
-* Extended the possibility to define penalties for target generation constraints.
-* Extended the energy bid for hydro plants to include a minimum bid and capacity / price levels.
-* Added the possibility to define levels of energy bids / prices and minimum bids for hydro units.
-* Included the energy cost representation (standard / energy bids) for hydro plants and units.
-* Reformulated the revenue maximization criterion for cases involving network representation.
-* Reformulated the combined cycle power plant representation.
-* Reformulated the power grid (net head x turbined outflow x power) representation for hydro units.
-* Included the definition of generic linear (integral) constraints.
-* Included the definition of generic decision variables.
-* Added the possibility to select shutdown decision variables of thermal power plants in the generic constraints.
+* Added the turbined water target constraint for hydro plants.
+* Expanded the capability to define penalties for target generation constraints.
+* Enhanced the energy bid configuration for hydro plants by introducing a minimum bid and capacity/price levels.
+* Enabled the definition of energy bid/price levels and minimum bids for hydro units.
+* Incorporated the energy cost representation (standard/energy bids) for hydro plants and units.
+* Redesigned the revenue maximization criterion for cases involving network representation.
+* Refactored the combined cycle power plant representation.
+* Updated the power grid representation (net head vs. turbined outflow vs. power) for hydro units.
+* Introduced the definition of generic linear (integral) constraints.
+* Added support for defining generic decision variables.
+* Enabled the selection of thermal power plant shutdown decision variables within generic constraints.
+* Allowed the selection of renewable power plant curtailment in generic constraints.
+* Added an option to prevent the curtailment of renewable power plants.
+* Implemented a precedence order constraint for renewable power plant curtailment.
+* Redesigned the non-controllable spillage modeling for hydro plants.
+* Reformulated the hydraulic losses representation.
 
 ### AC OPF
 
@@ -50,14 +55,12 @@ permalink: /
 * Corrected a bug in the reading process of discrete generation constraints of hydro plants.
 * Corrected a bug in the input data reading process of NCP model under ePSR environment.
 * Corrected a bug in the graphical interface of joint reserve of hydro units.
-
-### AC OPF
-
-* Fixed the defict and reactive power generation outputs.
-* Improved the numerical precision of input data reading.
-* Fixed a bug in reactive power balance: added shunt instead of subtracting shunt in the reactive power balance. Positive values now represent capacitive shunt, as per Knowledge Hub.
-* Corrected a bug related to the code assembly for certain entities in the AC network.
-* Corrected a bug in the iteration limit for the mathematical solver.
+* Corrected a bug in the individual reserve output of renewable power plants.
+* Corrected a bug in the battery target storage screen.
+* Corrected a bug in the representation of encroachment effect.
+* Corrected a bug in the individual terminal function of hydro plants.
+* Corrected a bug in the reading process of chronological requirement of generic linear constraints.
+* Corrected a bug in the hydro unit configuration screen.
 
 # Version 5.28
 
