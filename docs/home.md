@@ -6,9 +6,9 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.28.b
+# Version 5.28.c
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.b-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.c-patch.zip)
 
 ## New features
 
@@ -30,6 +30,8 @@ permalink: /
 * Implemented a precedence order constraint for renewable power plant curtailment.
 * Redesigned the non-controllable spillage modeling for hydro plants.
 * Reformulated the hydraulic losses representation.
+* Reformulated the rolling horizon scheme for cases with hydro unit representation.
+* Added the operation smoothing feature for storage of hydro plants.
 
 ### AC OPF
 
@@ -61,6 +63,10 @@ permalink: /
 * Corrected a bug in the individual terminal function of hydro plants.
 * Corrected a bug in the reading process of chronological requirement of generic linear constraints.
 * Corrected a bug in the hydro unit configuration screen.
+* Corrected a bug in the reading process of inertia parameters of hydro units and thermal generators.
+* Corrected a bug in the reading process of system inertia requirements with sub-hourly resolution.
+* Corrected a bug in the stochastic unit commitment representation.
+* Corrected a bug in the representation of forbidden zones for hydro units with reserve assignment.
   
 # Version 5.28
 
