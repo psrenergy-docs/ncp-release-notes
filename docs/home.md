@@ -32,6 +32,7 @@ permalink: /
 * Reformulated the hydraulic losses representation.
 * Reformulated the rolling horizon scheme for cases with hydro unit representation.
 * Added the operation smoothing feature for storage of hydro plants.
+* Enhanced wave propagation factor distribution for sub-hourly cases.
 
 ### AC OPF
 
@@ -67,6 +68,7 @@ permalink: /
 * Corrected a bug in the reading process of system inertia requirements with sub-hourly resolution.
 * Corrected a bug in the stochastic unit commitment representation.
 * Corrected a bug in the representation of forbidden zones for hydro units with reserve assignment.
+* Corrected a bug in efficiency values for hydro pumping units.
   
 # Version 5.28
 
