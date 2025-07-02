@@ -33,6 +33,7 @@ permalink: /
 * Reformulated the rolling horizon scheme for cases with hydro unit representation.
 * Added the operation smoothing feature for storage of hydro plants.
 * Enhanced wave propagation factor distribution for sub-hourly cases.
+* Enabled skipping of final refinement phase in rolling horizon scheme.
 
 ### AC OPF
 
