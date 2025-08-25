@@ -14,6 +14,8 @@ permalink: /
 
 ### NCP
 
+* Included the definition of power grid (net head x turbined outflow x power x online units) for hydro plants.
+* Included the definition of generic interpolation constraints.
 * Added the turbined water target constraint for hydro plants.
 * Expanded the capability to define penalties for target generation constraints.
 * Enhanced the energy bid configuration for hydro plants by introducing a minimum bid and capacity/price levels.
@@ -34,6 +36,7 @@ permalink: /
 * Added the operation smoothing feature for storage of hydro plants.
 * Enhanced wave propagation factor distribution for sub-hourly cases.
 * Enabled skipping of final refinement phase in rolling horizon scheme.
+* Reformulated the thermal power ramping representation.
 
 ### AC OPF
 
@@ -63,7 +66,7 @@ permalink: /
 * Corrected a bug in the battery target storage screen.
 * Corrected a bug in the representation of encroachment effect.
 * Corrected a bug in the individual terminal function of hydro plants.
-* Corrected a bug in the reading process of chronological requirement of generic linear constraints.
+* Corrected a bug in the reading process of chronological requirement of  linear constraints.
 * Corrected a bug in the hydro unit configuration screen.
 * Corrected a bug in the reading process of inertia parameters of hydro units and thermal generators.
 * Corrected a bug in the reading process of system inertia requirements with sub-hourly resolution.
