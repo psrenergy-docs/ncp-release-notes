@@ -6,9 +6,9 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.28.c
+# Version 5.29
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.28.c-patch.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.29-setup.zip)🔗 
 
 ## New features
 
@@ -37,6 +37,8 @@ permalink: /
 * Enhanced wave propagation factor distribution for sub-hourly cases.
 * Enabled skipping of final refinement phase in rolling horizon scheme.
 * Reformulated the thermal power ramping representation.
+* New output result file:
+  * Target generation violation
 
 ### AC OPF
 
@@ -73,6 +75,7 @@ permalink: /
 * Corrected a bug in the stochastic unit commitment representation.
 * Corrected a bug in the representation of forbidden zones for hydro units with reserve assignment.
 * Corrected a bug in efficiency values for hydro pumping units.
+* Corrected a bug in the discrete generation constraint of hydro plants.
   
 # Version 5.28
 
