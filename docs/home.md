@@ -6,6 +6,33 @@ description: "NCP release notes"
 permalink: /
 ---
 
+# Version 5.29.a
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.29.a-patch.zip)🔗 
+
+## New features
+
+### NCP
+
+* Reviewed and updated the reporting of battery marginal costs.
+* Added output for the marginal cost of generic constraints.
+* Added a protection mechanism for plants whose fuel-consumption function includes a negative independent term.
+* Updated the NCP iFeedback application.
+
+* ## Corrections
+
+### NCP
+
+* Fixed the minimum generation constraint for steam thermal units.
+* Corrected the assignment of down-reserve for generators under maintenance.
+* Fixed the representation of exclusive joint-reserve requirements.
+* Corrected the maximum number of hydro and thermal starts allowed over the planning horizon.
+* Corrected the total battery generation values displayed in the execution dashboard.
+* Fixed the output of exclusive joint reserve for hydro units.
+* Corrected the spillway-constraint configuration screen.
+* Fixed the sub-hourly inflow import screen.
+* Corrected the screen for defining generic interpolation constraints.
+  
 # Version 5.29
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.29-setup.zip)🔗 
