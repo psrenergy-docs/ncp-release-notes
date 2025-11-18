@@ -19,7 +19,7 @@ permalink: /
 * Added a protection mechanism for plants whose fuel-consumption function includes a negative independent term.
 * Updated the NCP iFeedback application.
 
-* ## Corrections
+## Corrections
 
 ### NCP
 
