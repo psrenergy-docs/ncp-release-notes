@@ -32,6 +32,7 @@ permalink: /
 * Corrected the spillway-constraint configuration screen.
 * Fixed the sub-hourly inflow import screen.
 * Corrected the screen for defining generic interpolation constraints.
+* Corrected the mathematical logic applied to thermal generators when a single minimum start-up time is defined for all temperature conditions (hot, warm, and cold).
   
 # Version 5.29
 
