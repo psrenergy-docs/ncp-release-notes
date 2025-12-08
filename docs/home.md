@@ -18,6 +18,9 @@ permalink: /
 * Added output for the marginal cost of generic constraints.
 * Added a protection mechanism for plants whose fuel-consumption function includes a negative independent term.
 * Updated the NCP iFeedback application.
+* Refactored renewable spill precedence modeling.
+* Redesigned thermal production ramp-by-level modeling.
+* Updated spillway constraints screen.
 
 ## Corrections
 
@@ -33,6 +36,7 @@ permalink: /
 * Fixed the sub-hourly inflow import screen.
 * Corrected the screen for defining generic interpolation constraints.
 * Corrected the mathematical logic applied to thermal generators when a single minimum start-up time is defined for all temperature conditions (hot, warm, and cold).
+* Fixed total inflows received output.
   
 # Version 5.29
 
