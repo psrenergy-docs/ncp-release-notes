@@ -37,6 +37,7 @@ permalink: /
 * Corrected the screen for defining generic interpolation constraints.
 * Corrected the mathematical logic applied to thermal generators when a single minimum start-up time is defined for all temperature conditions (hot, warm, and cold).
 * Fixed total inflows received output.
+* Fixed reading issues in the new hydropower grid representation.
   
 # Version 5.29
 
