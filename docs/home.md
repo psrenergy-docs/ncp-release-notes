@@ -14,6 +14,7 @@ permalink: /
 
 ### NCP
 
+* Added minimum up-time and down-time constraints for hydropower units.
 * Reviewed and updated the reporting of battery marginal costs.
 * Added output for the marginal cost of generic constraints.
 * Added a protection mechanism for plants whose fuel-consumption function includes a negative independent term.
@@ -38,6 +39,8 @@ permalink: /
 * Corrected the mathematical logic applied to thermal generators when a single minimum start-up time is defined for all temperature conditions (hot, warm, and cold).
 * Fixed total inflows received output.
 * Fixed reading issues in the new hydropower grid representation.
+* Resolved issues in the linear generic constraints interface.
+* Fixed issues related to inertia modeling.
   
 # Version 5.29
 
