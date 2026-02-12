@@ -41,6 +41,7 @@ permalink: /
 * Fixed reading issues in the new hydropower grid representation.
 * Resolved issues in the linear generic constraints interface.
 * Fixed issues related to inertia modeling.
+* Corrected the joint reserve marginal cost output.
   
 # Version 5.29
 
