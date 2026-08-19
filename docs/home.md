@@ -6,9 +6,9 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.29.a
+# Version 5.29.b
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.29.a-patch.zip)🔗 
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.29.b-patch.zip)🔗 
 
 ## New features
 
@@ -22,10 +22,16 @@ permalink: /
 * Refactored renewable spill precedence modeling.
 * Redesigned thermal production ramp-by-level modeling.
 * Updated spillway constraints screen.
+* Added costs and bounds for generic variables.
+* Added a new output for generic variable results.
+* Added output for energy supply offer costs of hydro plants, thermal plants, hydro units, batteries, and renewables.
+* Upgraded the power grid formulation for hydropower plants.
 
 ## Corrections
 
 ### NCP
+
+# Version 5.29
 
 * Fixed the minimum generation constraint for steam thermal units.
 * Corrected the assignment of down-reserve for generators under maintenance.
@@ -42,8 +48,9 @@ permalink: /
 * Resolved issues in the linear generic constraints interface.
 * Fixed issues related to inertia modeling.
 * Corrected the joint reserve marginal cost output.
-  
-# Version 5.29
+* Fixed the reading of DC link transmission cost data.
+* Fixed the reading of network data for 5-minute resolution.
+* Fixed the user-defined monetary unit in the model's cost reports.
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.29-setup.zip)🔗 
 
