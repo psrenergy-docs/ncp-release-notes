@@ -31,8 +31,6 @@ permalink: /
 
 ### NCP
 
-# Version 5.29
-
 * Fixed the minimum generation constraint for steam thermal units.
 * Corrected the assignment of down-reserve for generators under maintenance.
 * Fixed the representation of exclusive joint-reserve requirements.
@@ -51,6 +49,8 @@ permalink: /
 * Fixed the reading of DC link transmission cost data.
 * Fixed the reading of network data for 5-minute resolution.
 * Fixed the user-defined monetary unit in the model's cost reports.
+
+# Version 5.29
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.29-setup.zip)🔗 
 
